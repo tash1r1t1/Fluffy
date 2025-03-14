@@ -13,6 +13,7 @@ import java.io.File;
 
 public class Main {
     public static void main(String[] args) {
+
         Javalin application = Javalin.create(configuration -> {
             configuration.addStaticFiles("/public", Location.CLASSPATH);
             configuration.accessManager(new ApplicationAccessManager());
