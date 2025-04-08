@@ -1,0 +1,508 @@
+{
+  "id": "cf414bfc-a68c-4ee5-8521-70cb7729e8fa",
+  "version": "2.0",
+  "name": "universe",
+  "url": "http://127.0.0.1:7000",
+  "tests": [{
+    "id": "6f6aa63e-203d-40fc-83c5-bd9d48950ee1",
+    "name": "Tests",
+    "commands": [{
+      "id": "7d343134-890c-4ef7-b654-7010d88e7bc1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7bacda1b-0e31-4244-98f5-18f099548d97",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94fce9ef-0fc4-4464-9f78-c3528a842717",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign up",
+      "targets": [
+        ["linkText=Sign up", "linkText"],
+        ["css=.header__link--primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign up')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/sign-up')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f79936f-8a1a-476c-9bd3-dcff9b45278e",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-up__first-name",
+      "targets": [
+        ["id=sign-up__first-name", "id"],
+        ["name=first-name", "name"],
+        ["css=#sign-up__first-name", "css:finder"],
+        ["xpath=//input[@id='sign-up__first-name']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc9a592e-16b6-416d-9107-786ead5918fd",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-up__first-name",
+      "targets": [
+        ["id=sign-up__first-name", "id"],
+        ["name=first-name", "name"],
+        ["css=#sign-up__first-name", "css:finder"],
+        ["xpath=//input[@id='sign-up__first-name']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Бражнік"
+    }, {
+      "id": "a26db6bf-fa14-45ea-ac4f-14522cb35456",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-up__last-name",
+      "targets": [
+        ["id=sign-up__last-name", "id"],
+        ["name=last-name", "name"],
+        ["css=#sign-up__last-name", "css:finder"],
+        ["xpath=//input[@id='sign-up__last-name']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Костянтинович"
+    }, {
+      "id": "f1ba4e01-7f13-41b0-89ce-7cca28059489",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-up__email",
+      "targets": [
+        ["id=sign-up__email", "id"],
+        ["name=email", "name"],
+        ["css=#sign-up__email", "css:finder"],
+        ["xpath=//input[@id='sign-up__email']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "030103dim@gmail.com"
+    }, {
+      "id": "e5a63c62-f441-4651-941b-db78084cb026",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-up__password",
+      "targets": [
+        ["id=sign-up__password", "id"],
+        ["name=password", "name"],
+        ["css=#sign-up__password", "css:finder"],
+        ["xpath=//input[@id='sign-up__password']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfb98bf1-f8fa-4884-a024-183a3f2824f3",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-up__password",
+      "targets": [
+        ["id=sign-up__password", "id"],
+        ["name=password", "name"],
+        ["css=#sign-up__password", "css:finder"],
+        ["xpath=//input[@id='sign-up__password']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "123Dim@030103lol"
+    }, {
+      "id": "856407ac-bba5-4f17-b648-35cf79036c8a",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-up__confirm-password",
+      "targets": [
+        ["id=sign-up__confirm-password", "id"],
+        ["name=confirm-password", "name"],
+        ["css=#sign-up__confirm-password", "css:finder"],
+        ["xpath=//input[@id='sign-up__confirm-password']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59801ef2-ec54-4239-bb38-e22cb354cf6f",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-up__confirm-password",
+      "targets": [
+        ["id=sign-up__confirm-password", "id"],
+        ["name=confirm-password", "name"],
+        ["css=#sign-up__confirm-password", "css:finder"],
+        ["xpath=//input[@id='sign-up__confirm-password']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "123Dim@030103lol"
+    }, {
+      "id": "0551bd1b-1ce6-4831-8515-4c26eef47022",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form__button",
+      "targets": [
+        ["css=.form__button", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c937421c-aee4-4bdd-bc49-88ee09f84e4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.alert__button",
+      "targets": [
+        ["css=.alert__button", "css:finder"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28c3320b-9396-4d71-9805-d0f0142a5ba2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=New post",
+      "targets": [
+        ["linkText=New post", "linkText"],
+        ["css=.header__link", "css:finder"],
+        ["xpath=//a[contains(text(),'New post')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/posts/create')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'New post')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ea93b88-772d-479c-8fbb-1e2637f63c81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post-form__title",
+      "targets": [
+        ["css=.post-form__title", "css:finder"],
+        ["xpath=//h2", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6320ca5d-185d-418e-a8b6-44683cd3b99f",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.post-form__title",
+      "targets": [
+        ["css=.post-form__title", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Dogsssss')]", "xpath:innerText"]
+      ],
+      "value": "Dogsssss"
+    }, {
+      "id": "6fefdc31-bd44-4c25-9ca2-4d96101dbba1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post-form__description",
+      "targets": [
+        ["css=.post-form__description", "css:finder"],
+        ["xpath=//div[2]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4de4019f-f607-4288-a6bb-3e28b7a1ceb0",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.post-form__description",
+      "targets": [
+        ["css=.post-form__description", "css:finder"],
+        ["xpath=//div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'adsasdsdasdasda')]", "xpath:innerText"]
+      ],
+      "value": "adsasdsdasdasda"
+    }, {
+      "id": "ca7acb77-d62e-493f-a022-28acc0c2ca28",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post-form__button:nth-child(2)",
+      "targets": [
+        ["css=.post-form__button:nth-child(2)", "css:finder"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Post')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "97eb33b6-b148-42aa-9d21-b5f060cb47ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.alert__button",
+      "targets": [
+        ["css=.alert__button", "css:finder"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6036fc52-92f0-4bc9-bef7-d21942704c91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logo__img",
+      "targets": [
+        ["css=.logo__img", "css:finder"],
+        ["xpath=//img[@alt='Universe']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8041987-1b97-40c6-ba34-2b06d2ab253b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logo__img",
+      "targets": [
+        ["css=.logo__img", "css:finder"],
+        ["xpath=//img[@alt='Universe']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3880130c-a2bb-43ac-a71d-5307bbde4531",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown__icon",
+      "targets": [
+        ["css=.dropdown__icon", "css:finder"],
+        ["xpath=//img[@alt='Avatar']", "xpath:img"],
+        ["xpath=//button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5fb5ef5-87b0-4c56-a2ca-03a7e75e8b8a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My profile",
+      "targets": [
+        ["linkText=My profile", "linkText"],
+        ["css=.dropdown__item:nth-child(1) > .dropdown__link", "css:finder"],
+        ["xpath=//a[contains(text(),'My profile')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/account')]", "xpath:href"],
+        ["xpath=//div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a581bc0d-cd36-41e0-9af6-d26ef55ae8d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=account__address",
+      "targets": [
+        ["id=account__address", "id"],
+        ["name=address", "name"],
+        ["css=#account__address", "css:finder"],
+        ["xpath=//input[@id='account__address']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4d8ba11-d1d7-4c2c-a5d1-b2bb8a657f21",
+      "comment": "",
+      "command": "click",
+      "target": "id=account__address",
+      "targets": [
+        ["id=account__address", "id"],
+        ["name=address", "name"],
+        ["css=#account__address", "css:finder"],
+        ["xpath=//input[@id='account__address']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b122faee-ca92-4d72-a916-6b6dde7c1848",
+      "comment": "",
+      "command": "type",
+      "target": "id=account__address",
+      "targets": [
+        ["id=account__address", "id"],
+        ["name=address", "name"],
+        ["css=#account__address", "css:finder"],
+        ["xpath=//input[@id='account__address']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "Kiev"
+    }, {
+      "id": "81b0d011-0a69-40e0-8fdd-7bf0f362edb6",
+      "comment": "",
+      "command": "click",
+      "target": "id=account__website",
+      "targets": [
+        ["id=account__website", "id"],
+        ["name=website", "name"],
+        ["css=#account__website", "css:finder"],
+        ["xpath=//input[@id='account__website']", "xpath:attributes"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2619323b-172f-40e1-870e-4592a1798be7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container--flex",
+      "targets": [
+        ["css=.container--flex", "css:finder"],
+        ["xpath=//main/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eab4eb45-1a4f-47c1-a6d3-d2ba735f471b",
+      "comment": "",
+      "command": "click",
+      "target": "id=account__website",
+      "targets": [
+        ["id=account__website", "id"],
+        ["name=website", "name"],
+        ["css=#account__website", "css:finder"],
+        ["xpath=//input[@id='account__website']", "xpath:attributes"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "694cd51e-7169-4f51-9ef5-a966e4bb8d71",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container--flex",
+      "targets": [
+        ["css=.container--flex", "css:finder"],
+        ["xpath=//main/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d09f6b2-d881-4fc4-8a7b-dafa71f44735",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button--fluid",
+      "targets": [
+        ["css=.button--fluid", "css:finder"],
+        ["xpath=//div[8]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Update information')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cb5b2a9-9d89-4009-b409-3b16254b61be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.alert__button",
+      "targets": [
+        ["css=.alert__button", "css:finder"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87e3f386-1f34-4545-ac31-34e3a4ef4ac3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Dashboard",
+      "targets": [
+        ["linkText=Dashboard", "linkText"],
+        ["css=.dropdown__item:nth-child(2) > .dropdown__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Dashboard')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/dashboard')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Dashboard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2080b21-bd89-4f5e-ba6c-7792d9e6c207",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown__icon",
+      "targets": [
+        ["css=.dropdown__icon", "css:finder"],
+        ["xpath=//img[@alt='Avatar']", "xpath:img"],
+        ["xpath=//button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf115f61-d407-4ee0-ac81-eaafb504493a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My profile",
+      "targets": [
+        ["linkText=My profile", "linkText"],
+        ["css=.dropdown__item:nth-child(1) > .dropdown__link", "css:finder"],
+        ["xpath=//a[contains(text(),'My profile')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/account')]", "xpath:href"],
+        ["xpath=//div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6060ee4d-3f85-4942-a4d9-ab28c3b0a63f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown__link:nth-child(2)",
+      "targets": [
+        ["css=.dropdown__link:nth-child(2)", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c27d15c-7d6c-49a2-9da4-aeac7de90ad4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=.header__link--secondary", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/sign-in')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94d06db0-360b-4c97-85d6-0783d58d386c",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-in__email",
+      "targets": [
+        ["id=sign-in__email", "id"],
+        ["name=email", "name"],
+        ["css=#sign-in__email", "css:finder"],
+        ["xpath=//input[@id='sign-in__email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "030103dim@gmail.com"
+    }, {
+      "id": "64c8780b-d465-4e91-9525-80a754bef52d",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-in__password",
+      "targets": [
+        ["id=sign-in__password", "id"],
+        ["name=password", "name"],
+        ["css=#sign-in__password", "css:finder"],
+        ["xpath=//input[@id='sign-in__password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "123Dim@030103lol"
+    }, {
+      "id": "25a35277-02e4-4bd1-ac18-be9cf4d1b6a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form__button",
+      "targets": [
+        ["css=.form__button", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "901f519a-c029-457e-8a96-190ff90977e6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6f6aa63e-203d-40fc-83c5-bd9d48950ee1"]
+  }],
+  "urls": ["http://127.0.0.1:7000/"],
+  "plugins": []
+}
